@@ -1,0 +1,31 @@
+---
+stages:
+  - build-docs
+  - publish-docs
+
+build-docs-html:
+  stage: build-docs
+  image: node:lts-bullseye
+  script:
+    - yarn
+    #- (test -d .next) && (echo 'Updating dendron Next.js if updates are available...' && cd .next && git reset --hard && git pull && yarn && cd ..)
+    - yarn dendron publish init
+    - yarn dendron publish export
+    - mv .next/out docs
+  artifacts:
+    paths:
+      - docs
+    expire_in: 30 days
+
+pages:
+  stage: publish-docs
+  image: debian:bullseye-slim
+  script:
+    - mv docs public
+    # - apt update && apt install -y apache2-utils
+    # - htpasswd -Bcb public/.htpasswd $BASIC_AUTH_USERNAME $BASIC_AUTH_PASSWORD
+    - 'echo "Gitlab Pages available at: ${CI_PAGES_URL}"'
+  artifacts:
+    paths:
+      - public
+    expire_in: 30 days
