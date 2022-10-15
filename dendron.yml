@@ -85,7 +85,7 @@ publishing:
   enableNoteTitleForLink: true
   enablePrettyRefs: true
   enableKatex: true
-  assertsPrefix: /dendron
+  assetsPrefix: /dendron
   copyAssets: true
   siteHierarchies:
     - root
