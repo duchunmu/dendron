@@ -1,18 +1,29 @@
 {
   "roots": [
     {
-      "key": "wv8pjhxjjrp5bnwlz2kznsg",
-      "title": "Tutorial",
+      "key": "jjjmojkauabcaz1zauvbh8u",
+      "title": "Course",
       "icon": null,
       "hasTitleNumberOutlined": false,
       "vaultName": "Dendron",
-      "children": []
+      "children": [
+        {
+          "key": "arb9bttprluxlygezvm3yir",
+          "title": "Dance Course",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": []
+        }
+      ]
     }
   ],
   "child2parent": {
-    "wv8pjhxjjrp5bnwlz2kznsg": null
+    "jjjmojkauabcaz1zauvbh8u": null,
+    "arb9bttprluxlygezvm3yir": "jjjmojkauabcaz1zauvbh8u"
   },
   "notesLabelById": {
-    "wv8pjhxjjrp5bnwlz2kznsg": "Tutorial"
+    "jjjmojkauabcaz1zauvbh8u": "Course",
+    "arb9bttprluxlygezvm3yir": "Dance Course"
   }
 }

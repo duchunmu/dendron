@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1665848866745,
-      "created": 1665848866745,
+      "updated": 1665850397496,
+      "created": 1665850397496,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -41,198 +41,62 @@
       "links": [],
       "anchors": {},
       "children": [
-        "wv8pjhxjjrp5bnwlz2kznsg"
+        "jjjmojkauabcaz1zauvbh8u"
       ],
       "parent": null,
       "data": {}
     },
-    "wv8pjhxjjrp5bnwlz2kznsg": {
-      "id": "wv8pjhxjjrp5bnwlz2kznsg",
-      "title": "Tutorial",
+    "jjjmojkauabcaz1zauvbh8u": {
+      "id": "jjjmojkauabcaz1zauvbh8u",
+      "title": "Course",
       "desc": "",
-      "updated": 1660931467392,
-      "created": 1659721741451,
-      "currentStep": 0,
-      "totalSteps": 0,
-      "custom": {
-        "currentStep": 0,
-        "totalSteps": 0
-      },
-      "fname": "tutorial",
+      "updated": 1665849791876,
+      "created": 1665849791876,
+      "custom": {},
+      "fname": "course",
       "type": "note",
       "vault": {
         "fsPath": ".",
         "selfContained": true,
         "name": "Dendron"
       },
-      "contentHash": "6e0867365fc7c8512b3571dcd9169f3d",
-      "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "tutorial",
-            "id": "wv8pjhxjjrp5bnwlz2kznsg",
-            "vaultName": "Dendron"
-          },
-          "value": "dendron",
-          "position": {
-            "start": {
-              "line": 49,
-              "column": 11,
-              "offset": 2861
-            },
-            "end": {
-              "line": 49,
-              "column": 22,
-              "offset": 2872
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "dendron"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "tutorial",
-            "id": "wv8pjhxjjrp5bnwlz2kznsg",
-            "vaultName": "Dendron"
-          },
-          "value": "dendron",
-          "position": {
-            "start": {
-              "line": 50,
-              "column": 12,
-              "offset": 2976
-            },
-            "end": {
-              "line": 50,
-              "column": 23,
-              "offset": 2987
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "dendron"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "tutorial",
-            "id": "wv8pjhxjjrp5bnwlz2kznsg",
-            "vaultName": "Dendron"
-          },
-          "value": "tutorial.one",
-          "position": {
-            "start": {
-              "line": 51,
-              "column": 15,
-              "offset": 3042
-            },
-            "end": {
-              "line": 51,
-              "column": 31,
-              "offset": 3058
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "tutorial.one"
-          }
-        }
+      "contentHash": "b0fc4d353c207f72d64fd5f33fbc48f8",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "arb9bttprluxlygezvm3yir"
       ],
+      "parent": "root",
+      "data": {}
+    },
+    "arb9bttprluxlygezvm3yir": {
+      "id": "arb9bttprluxlygezvm3yir",
+      "title": "Dance Course",
+      "desc": "",
+      "updated": 1665849512885,
+      "created": 1665841845556,
+      "custom": {},
+      "fname": "course.dance-course",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "4ac79616fba900f8bec1c4ca319afc49",
+      "links": [],
       "anchors": {
-        "create-a-note": {
+        "taozigongzhu": {
           "type": "header",
-          "text": "Create a Note",
-          "value": "create-a-note",
-          "line": 14,
+          "text": "TaoZiGongZhu",
+          "value": "taozigongzhu",
+          "line": 8,
           "column": 0,
-          "depth": 2
-        },
-        "find-a-note": {
-          "type": "header",
-          "text": "Find a Note",
-          "value": "find-a-note",
-          "line": 23,
-          "column": 0,
-          "depth": 2
-        },
-        "organize-your-notes": {
-          "type": "header",
-          "text": "Organize your Notes",
-          "value": "organize-your-notes",
-          "line": 31,
-          "column": 0,
-          "depth": 2
-        },
-        "create-a-link": {
-          "type": "header",
-          "text": "Create a link",
-          "value": "create-a-link",
-          "line": 39,
-          "column": 0,
-          "depth": 2
-        },
-        "navigate-a-link": {
-          "type": "header",
-          "text": "Navigate a link",
-          "value": "navigate-a-link",
-          "line": 49,
-          "column": 0,
-          "depth": 2
-        },
-        "rename-a-note": {
-          "type": "header",
-          "text": "Rename a Note",
-          "value": "rename-a-note",
-          "line": 55,
-          "column": 0,
-          "depth": 2
-        },
-        "unlock-the-preview": {
-          "type": "header",
-          "text": "Unlock the Preview",
-          "value": "unlock-the-preview",
-          "line": 65,
-          "column": 0,
-          "depth": 2
-        },
-        "conclusion": {
-          "type": "header",
-          "text": "Conclusion",
-          "value": "conclusion",
-          "line": 69,
-          "column": 0,
-          "depth": 2
-        },
-        "next-steps": {
-          "type": "header",
-          "text": "Next Steps",
-          "value": "next-steps",
-          "line": 75,
-          "column": 0,
-          "depth": 2
-        },
-        "community": {
-          "type": "header",
-          "text": "Community",
-          "value": "community",
-          "line": 97,
-          "column": 0,
-          "depth": 2
+          "depth": 1
         }
       },
       "children": [],
-      "parent": "root",
+      "parent": "jjjmojkauabcaz1zauvbh8u",
       "data": {}
     }
   },
@@ -258,7 +122,7 @@
       "links": [],
       "anchors": {},
       "children": [
-        "wv8pjhxjjrp5bnwlz2kznsg"
+        "jjjmojkauabcaz1zauvbh8u"
       ],
       "parent": null,
       "data": {},
@@ -286,7 +150,7 @@
     "links": [],
     "anchors": {},
     "children": [
-      "wv8pjhxjjrp5bnwlz2kznsg"
+      "jjjmojkauabcaz1zauvbh8u"
     ],
     "parent": null,
     "data": {},
