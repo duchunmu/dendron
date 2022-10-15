@@ -16,12 +16,13 @@ jobs:
           yarn
           yarn dendron publish init
           yarn dendron publish export
-          mv .next/out docs
+          mv .next/out/* docs/
       - name: Commit files
         run: |
           git config --local user.email "duchunmu@qq.com"
           git config --local user.name "ChunMu Du[bot]"
-          git commit -m "Add changes" -a
+          git add docs/
+          git commit -m "publish"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
