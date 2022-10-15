@@ -16,6 +16,7 @@ jobs:
           yarn
           yarn dendron publish init
           yarn dendron publish export
+          rm -fR docs/*
           mv .next/out/* docs/
       - name: Commit files
         run: |
