@@ -1,0 +1,19 @@
+name: docs ci
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 18
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18
+      - name: dendron init, export and publish docs
+        run: |
+          yarn
+          yarn dendron publish init
+          yarn dendron publish export
+          mv .next/out docs
