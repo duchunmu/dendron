@@ -1,0 +1,18 @@
+{
+  "roots": [
+    {
+      "key": "wv8pjhxjjrp5bnwlz2kznsg",
+      "title": "Tutorial",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "Dendron",
+      "children": []
+    }
+  ],
+  "child2parent": {
+    "wv8pjhxjjrp5bnwlz2kznsg": null
+  },
+  "notesLabelById": {
+    "wv8pjhxjjrp5bnwlz2kznsg": "Tutorial"
+  }
+}
