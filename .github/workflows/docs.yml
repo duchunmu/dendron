@@ -27,12 +27,14 @@ jobs:
           git config --local user.name "ChunMu Du[bot]"
           git config --local pull.rebase true
           git config --local pull.ff only
-          git checkout --no-guess docs
-          git pull origin docs
+          git branch -D docs
+          git push origin docs -d
+          git checkout -b docs
           git add docs/
           git commit -m "publish"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          branch: docs
+          git push origin docs
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.TOKEN }}
+      #     branch: docs
