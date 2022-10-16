@@ -23,7 +23,8 @@ jobs:
           mv .next/out/* docs/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-        path: ./docs
+        with:
+          path: ./docs
   # Deployment job
   deploy:
     environment:
