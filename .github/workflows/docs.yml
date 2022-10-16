@@ -27,8 +27,8 @@ jobs:
           git config --local user.name "ChunMu Du[bot]"
           git config --local pull.rebase true
           git config --local pull.ff only
-          git branch -D docs
-          git push origin docs -d
+          git branch -D docs || true
+          git push origin docs -d || true
           git checkout -b docs
           git add docs/
           git commit -m "publish"
