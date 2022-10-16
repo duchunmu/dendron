@@ -25,6 +25,7 @@ jobs:
         run: |
           git config --local user.email "duchunmu@qq.com"
           git config --local user.name "ChunMu Du[bot]"
+          git checkout docs
           git add docs/
           git commit -m "publish"
       - name: Push changes
