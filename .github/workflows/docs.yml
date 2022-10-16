@@ -1,6 +1,9 @@
 name: docs ci
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -28,4 +31,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.TOKEN }}
-          branch: main
+          branch: docs
