@@ -1,4 +1,4 @@
-name: docs ci
+name: dendron publish ci
 
 on:
   push:
@@ -19,12 +19,11 @@ jobs:
           yarn
           yarn dendron publish init
           yarn dendron publish export
-          rm -fR docs/*
-          mv .next/out/* docs/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./docs
+          path: ./.next/out
+          retention-days: 30
   # Deployment job
   deploy:
     environment:
