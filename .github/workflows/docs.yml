@@ -32,9 +32,9 @@ jobs:
           git checkout -b docs
           git add docs/
           git commit -m "publish"
-          git push origin docs
-      # - name: Push changes
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.TOKEN }}
-      #     branch: docs
+          # git push origin docs
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          branch: docs
