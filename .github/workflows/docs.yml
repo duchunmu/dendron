@@ -25,11 +25,7 @@ jobs:
         run: |
           git config --local user.email "duchunmu@qq.com"
           git config --local user.name "ChunMu Du[bot]"
-<<<<<<< Updated upstream
-          git checkout docs
-=======
           git checkout --no-guess docs
->>>>>>> Stashed changes
           git add docs/
           git commit -m "publish"
       - name: Push changes
