@@ -71,11 +71,13 @@ workspace:
   maxPreviewsCached: 10
   maxNoteLength: 204800
   enableFullHierarchyNoteTitle: false
+  enableSmartRefs: false
 preview:
   enableFMTitle: true
   enableNoteTitleForLink: true
   enableFrontmatterTags: true
   enableHashesForFMTags: false
+  enableMermaid: true
   enablePrettyRefs: true
   enableKatex: true
   automaticallyShowPreview: false
@@ -105,4 +107,3 @@ publishing:
   enableRandomlyColoredTags: true
   enableTaskNotes: true
   enablePrettyLinks: true
-  searchMode: search
